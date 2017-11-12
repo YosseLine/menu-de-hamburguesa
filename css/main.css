@@ -1,0 +1,53 @@
+body{
+  font-family: 'Kavoon', cursive;
+  margin: 0;
+  padding: 0;
+}
+#container{
+  background-image: url("http://www.hdwallpaperspulse.com/wp-content/uploads/2015/10/11/riding-in-the-tag-wallpaper.png");
+  max-width: 100%;
+  background-repeat: repeat-x;
+
+}
+button{
+  width: 80px;
+  border-radius: 20px;
+  position: relative;
+  top: 10px;
+  margin-left: 20px;
+}
+h1{
+ position: relative;
+ display: inline-block;
+ margin: 20px 80px;
+ color: #fff;
+}
+nav{
+  width: 60%;
+  text-align: center;
+}
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0 20px;
+  background-image: url("https://i.ytimg.com/vi/Kf_IMO0-bfY/maxresdefault.jpg");
+  max-width: 100%;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+}
+a{
+  text-decoration: none;
+}
+li:hover{
+  background-color:grey;
+}
+a:hover{
+  color: #fff;
+  font-weight: 500;
+}
+.enabled-menu{
+  display: block;
+}
+.disabled-menu{
+  display: none;
+}
